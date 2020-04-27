@@ -1,3 +1,6 @@
+body {
+  background-color: beige;
+}
 .App {
   text-align: center;
 }
@@ -26,6 +29,58 @@
 
 .App-link {
   color: #61dafb;
+}
+.survey-header {
+  background-color: #2b61cc50;
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  margin: 10px 20px 20px 20px;
+}
+.survey-form {
+  width: 400px;
+  height: 680px;
+  background-color: #bcc9e050;
+  float: left;
+  margin: 0px 20px 10px 20px;
+  padding: 20px 0px 0px 10px;
+}
+.survey-preview {
+  float: left;
+  width: 550px;
+  margin: 0px 20px 10px 0px;
+  height:700px;
+  background-color: #503d5550;
+  padding: 0px 0px 0px 20px;
+}
+.checkbox-listing {
+  text-align: left;
+  background-color: gray;
+  width: 400px;
+  padding: 10px 0px 10px 20px;
+  color: brown;
+}
+.submit {
+  float: right;
+  padding: 10px 20px;
+  margin: 30px 80px;
+  color: black;
+  background-color: #09214950;
+}
+.imagesArea {
+  float: right;
+  width: 350px;
+  margin: 0px 20px 10px 0px;
+  height: 725px;
+  background-color: #d8b2cd7c;
+  padding: 20px 0px 0px 30px;
+  
+}
+.survey-footer {
+  background-color: #d8b2cd7c;
+  height: 35px;
+  text-align: center;
+  margin: 730px 400px 0 20px;
 }
 
 @keyframes App-logo-spin {
